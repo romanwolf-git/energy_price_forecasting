@@ -1,4 +1,4 @@
-## Time Series Forecasting with LSTM
+## Energy Price Forecasting with LSTM
 
 This notebook is part of the work produced within the Melbourne machine learning and AI community's [Green Battery Hack](https://www.mlai.au/hackathon#!). The aim of the hack was to charge and discharge a battery connected to a pv cell connected to the grid, in order to make money by selling energy on the Australian energy market. The image below helps explain the setup of the hack.
 ![](https://github.com/MLAI-AUS-Inc/gbh-lithiumloaders/blob/f4fdfd8ace6b72beeefa4794531ed90379441944/design/setup.png)
