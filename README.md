@@ -1,6 +1,9 @@
 ## Time Series Forecasting with LSTM
 
-This notebook is part of the work produced within the Melbourne machine learning and AI community's [Green Battery Hack](https://www.mlai.au/hackathon#!). The aim of the hack was to charge and discharge a battery connected to a pv cell connected to the grid, in order to make money by selling energy on the Australian energy market. Predicting the price of energy is therefore essential in deciding what action to take. We decided to use LSTM (Long Short-Term Memory) to predict the price, which is at the core of our larger decision logic. The notebook covers the following steps:
+This notebook is part of the work produced within the Melbourne machine learning and AI community's [Green Battery Hack](https://www.mlai.au/hackathon#!). The aim of the hack was to charge and discharge a battery connected to a pv cell connected to the grid, in order to make money by selling energy on the Australian energy market.
+[design/setup.png](https://github.com/MLAI-AUS-Inc/gbh-lithiumloaders/blob/f4fdfd8ace6b72beeefa4794531ed90379441944/design/setup.png)
+
+Predicting the price of energy ($/MWh) is therefore essential in deciding what action to take. We decided to use LSTM (Long Short-Term Memory) to predict the price, which is at the core of our larger decision logic. The notebook covers the following steps:
 
 1. **Data Loading and Exploration**: The code loads a CSV file containing time series data and performs basic data exploration and visualization.
 
@@ -38,6 +41,9 @@ pip install torch numpy pandas matplotlib scikit-learn
 ```
 
 Once you have the dependencies installed, you can run the Jupyter Notebook and follow along with the code and explanations.
+
+## Acknowledgments
+- The `price` data was provided by [opennem](https://opennem.org.au/).
 
 ## License
 
